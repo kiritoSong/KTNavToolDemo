@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6E78A220DC9E580032A3FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78A120DC9E580032A3FB /* AppDelegate.m */; };
+		5F6E78A520DC9E580032A3FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78A420DC9E580032A3FB /* ViewController.m */; };
+		5F6E78A820DC9E580032A3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6E78A620DC9E580032A3FB /* Main.storyboard */; };
+		5F6E78AA20DC9E5A0032A3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6E78A920DC9E5A0032A3FB /* Assets.xcassets */; };
+		5F6E78AD20DC9E5A0032A3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6E78AB20DC9E5A0032A3FB /* LaunchScreen.storyboard */; };
+		5F6E78B020DC9E5A0032A3FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78AF20DC9E5A0032A3FB /* main.m */; };
+		5F6E78BA20DC9E5A0032A3FB /* KTNavViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78B920DC9E5A0032A3FB /* KTNavViewDemoTests.m */; };
+		5F6E78C520DC9E5A0032A3FB /* KTNavViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78C420DC9E5A0032A3FB /* KTNavViewDemoUITests.m */; };
+		5F6E78ED20DC9F010032A3FB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78D420DC9F010032A3FB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5F6E78EE20DC9F010032A3FB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78DD20DC9F010032A3FB /* ViewController+MASAdditions.m */; };
+		5F6E78EF20DC9F010032A3FB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78E120DC9F010032A3FB /* MASCompositeConstraint.m */; };
+		5F6E78F020DC9F010032A3FB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78E220DC9F010032A3FB /* MASConstraintMaker.m */; };
+		5F6E78F120DC9F010032A3FB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78E320DC9F010032A3FB /* MASLayoutConstraint.m */; };
+		5F6E78F220DC9F010032A3FB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78E420DC9F010032A3FB /* NSArray+MASAdditions.m */; };
+		5F6E78F320DC9F010032A3FB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78E520DC9F010032A3FB /* View+MASAdditions.m */; };
+		5F6E78F420DC9F010032A3FB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78E820DC9F010032A3FB /* MASConstraint.m */; };
+		5F6E78F520DC9F010032A3FB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78EA20DC9F010032A3FB /* MASViewConstraint.m */; };
+		5F6E78F620DC9F010032A3FB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78EB20DC9F010032A3FB /* MASViewAttribute.m */; };
+		5F6E78F720DC9F010032A3FB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F6E78EC20DC9F010032A3FB /* Info.plist */; };
+		5F6E78FA20DC9F2D0032A3FB /* NavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78F920DC9F2D0032A3FB /* NavView.m */; };
+		5F6E78FD20DCA21D0032A3FB /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78FC20DCA21D0032A3FB /* UIView+LayoutMethods.m */; };
+		5F6E790020DCA3AE0032A3FB /* KTNavScrollTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E78FF20DCA3AE0032A3FB /* KTNavScrollTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F6E78B620DC9E5A0032A3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6E789520DC9E580032A3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6E789C20DC9E580032A3FB;
+			remoteInfo = KTNavViewDemo;
+		};
+		5F6E78C120DC9E5A0032A3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6E789520DC9E580032A3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6E789C20DC9E580032A3FB;
+			remoteInfo = KTNavViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F6E789D20DC9E580032A3FB /* KTNavViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTNavViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6E78A020DC9E580032A3FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F6E78A120DC9E580032A3FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F6E78A320DC9E580032A3FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F6E78A420DC9E580032A3FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F6E78A720DC9E580032A3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F6E78A920DC9E5A0032A3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F6E78AC20DC9E5A0032A3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F6E78AE20DC9E5A0032A3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6E78AF20DC9E5A0032A3FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F6E78B520DC9E5A0032A3FB /* KTNavViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTNavViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6E78B920DC9E5A0032A3FB /* KTNavViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTNavViewDemoTests.m; sourceTree = "<group>"; };
+		5F6E78BB20DC9E5A0032A3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6E78C020DC9E5A0032A3FB /* KTNavViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTNavViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6E78C420DC9E5A0032A3FB /* KTNavViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTNavViewDemoUITests.m; sourceTree = "<group>"; };
+		5F6E78C620DC9E5A0032A3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6E78D320DC9F010032A3FB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		5F6E78D420DC9F010032A3FB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5F6E78D520DC9F010032A3FB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		5F6E78D620DC9F010032A3FB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		5F6E78D720DC9F010032A3FB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5F6E78D820DC9F010032A3FB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		5F6E78D920DC9F010032A3FB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		5F6E78DA20DC9F010032A3FB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5F6E78DB20DC9F010032A3FB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		5F6E78DC20DC9F010032A3FB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		5F6E78DD20DC9F010032A3FB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		5F6E78DE20DC9F010032A3FB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		5F6E78DF20DC9F010032A3FB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		5F6E78E020DC9F010032A3FB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		5F6E78E120DC9F010032A3FB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		5F6E78E220DC9F010032A3FB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		5F6E78E320DC9F010032A3FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		5F6E78E420DC9F010032A3FB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		5F6E78E520DC9F010032A3FB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		5F6E78E620DC9F010032A3FB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5F6E78E720DC9F010032A3FB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		5F6E78E820DC9F010032A3FB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		5F6E78E920DC9F010032A3FB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5F6E78EA20DC9F010032A3FB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		5F6E78EB20DC9F010032A3FB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		5F6E78EC20DC9F010032A3FB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6E78F820DC9F2D0032A3FB /* NavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavView.h; sourceTree = "<group>"; };
+		5F6E78F920DC9F2D0032A3FB /* NavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavView.m; sourceTree = "<group>"; };
+		5F6E78FB20DCA21D0032A3FB /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		5F6E78FC20DCA21D0032A3FB /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		5F6E78FE20DCA3AE0032A3FB /* KTNavScrollTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTNavScrollTool.h; sourceTree = "<group>"; };
+		5F6E78FF20DCA3AE0032A3FB /* KTNavScrollTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTNavScrollTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6E789A20DC9E580032A3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6E78B220DC9E5A0032A3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6E78BD20DC9E5A0032A3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6E789420DC9E580032A3FB = {
+			isa = PBXGroup;
+			children = (
+				5F6E78D220DC9F010032A3FB /* Masonry */,
+				5F6E789F20DC9E580032A3FB /* KTNavViewDemo */,
+				5F6E78B820DC9E5A0032A3FB /* KTNavViewDemoTests */,
+				5F6E78C320DC9E5A0032A3FB /* KTNavViewDemoUITests */,
+				5F6E789E20DC9E580032A3FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6E789E20DC9E580032A3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E789D20DC9E580032A3FB /* KTNavViewDemo.app */,
+				5F6E78B520DC9E5A0032A3FB /* KTNavViewDemoTests.xctest */,
+				5F6E78C020DC9E5A0032A3FB /* KTNavViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6E789F20DC9E580032A3FB /* KTNavViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E78FB20DCA21D0032A3FB /* UIView+LayoutMethods.h */,
+				5F6E78FC20DCA21D0032A3FB /* UIView+LayoutMethods.m */,
+				5F6E78A020DC9E580032A3FB /* AppDelegate.h */,
+				5F6E78A120DC9E580032A3FB /* AppDelegate.m */,
+				5F6E78A320DC9E580032A3FB /* ViewController.h */,
+				5F6E78A420DC9E580032A3FB /* ViewController.m */,
+				5F6E78A620DC9E580032A3FB /* Main.storyboard */,
+				5F6E78A920DC9E5A0032A3FB /* Assets.xcassets */,
+				5F6E78AB20DC9E5A0032A3FB /* LaunchScreen.storyboard */,
+				5F6E78AE20DC9E5A0032A3FB /* Info.plist */,
+				5F6E78AF20DC9E5A0032A3FB /* main.m */,
+				5F6E78F820DC9F2D0032A3FB /* NavView.h */,
+				5F6E78F920DC9F2D0032A3FB /* NavView.m */,
+				5F6E78FE20DCA3AE0032A3FB /* KTNavScrollTool.h */,
+				5F6E78FF20DCA3AE0032A3FB /* KTNavScrollTool.m */,
+			);
+			path = KTNavViewDemo;
+			sourceTree = "<group>";
+		};
+		5F6E78B820DC9E5A0032A3FB /* KTNavViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E78B920DC9E5A0032A3FB /* KTNavViewDemoTests.m */,
+				5F6E78BB20DC9E5A0032A3FB /* Info.plist */,
+			);
+			path = KTNavViewDemoTests;
+			sourceTree = "<group>";
+		};
+		5F6E78C320DC9E5A0032A3FB /* KTNavViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E78C420DC9E5A0032A3FB /* KTNavViewDemoUITests.m */,
+				5F6E78C620DC9E5A0032A3FB /* Info.plist */,
+			);
+			path = KTNavViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		5F6E78D220DC9F010032A3FB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E78D320DC9F010032A3FB /* MASCompositeConstraint.h */,
+				5F6E78D420DC9F010032A3FB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				5F6E78D520DC9F010032A3FB /* MASConstraint+Private.h */,
+				5F6E78D620DC9F010032A3FB /* MASLayoutConstraint.h */,
+				5F6E78D720DC9F010032A3FB /* NSArray+MASShorthandAdditions.h */,
+				5F6E78D820DC9F010032A3FB /* MASConstraintMaker.h */,
+				5F6E78D920DC9F010032A3FB /* View+MASAdditions.h */,
+				5F6E78DA20DC9F010032A3FB /* NSArray+MASAdditions.h */,
+				5F6E78DB20DC9F010032A3FB /* MASUtilities.h */,
+				5F6E78DC20DC9F010032A3FB /* MASViewAttribute.h */,
+				5F6E78DD20DC9F010032A3FB /* ViewController+MASAdditions.m */,
+				5F6E78DE20DC9F010032A3FB /* MASViewConstraint.h */,
+				5F6E78DF20DC9F010032A3FB /* MASConstraint.h */,
+				5F6E78E020DC9F010032A3FB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				5F6E78E120DC9F010032A3FB /* MASCompositeConstraint.m */,
+				5F6E78E220DC9F010032A3FB /* MASConstraintMaker.m */,
+				5F6E78E320DC9F010032A3FB /* MASLayoutConstraint.m */,
+				5F6E78E420DC9F010032A3FB /* NSArray+MASAdditions.m */,
+				5F6E78E520DC9F010032A3FB /* View+MASAdditions.m */,
+				5F6E78E620DC9F010032A3FB /* View+MASShorthandAdditions.h */,
+				5F6E78E720DC9F010032A3FB /* Masonry.h */,
+				5F6E78E820DC9F010032A3FB /* MASConstraint.m */,
+				5F6E78E920DC9F010032A3FB /* ViewController+MASAdditions.h */,
+				5F6E78EA20DC9F010032A3FB /* MASViewConstraint.m */,
+				5F6E78EB20DC9F010032A3FB /* MASViewAttribute.m */,
+				5F6E78EC20DC9F010032A3FB /* Info.plist */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6E789C20DC9E580032A3FB /* KTNavViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6E78C920DC9E5A0032A3FB /* Build configuration list for PBXNativeTarget "KTNavViewDemo" */;
+			buildPhases = (
+				5F6E789920DC9E580032A3FB /* Sources */,
+				5F6E789A20DC9E580032A3FB /* Frameworks */,
+				5F6E789B20DC9E580032A3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTNavViewDemo;
+			productName = KTNavViewDemo;
+			productReference = 5F6E789D20DC9E580032A3FB /* KTNavViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F6E78B420DC9E5A0032A3FB /* KTNavViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6E78CC20DC9E5A0032A3FB /* Build configuration list for PBXNativeTarget "KTNavViewDemoTests" */;
+			buildPhases = (
+				5F6E78B120DC9E5A0032A3FB /* Sources */,
+				5F6E78B220DC9E5A0032A3FB /* Frameworks */,
+				5F6E78B320DC9E5A0032A3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6E78B720DC9E5A0032A3FB /* PBXTargetDependency */,
+			);
+			name = KTNavViewDemoTests;
+			productName = KTNavViewDemoTests;
+			productReference = 5F6E78B520DC9E5A0032A3FB /* KTNavViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F6E78BF20DC9E5A0032A3FB /* KTNavViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6E78CF20DC9E5A0032A3FB /* Build configuration list for PBXNativeTarget "KTNavViewDemoUITests" */;
+			buildPhases = (
+				5F6E78BC20DC9E5A0032A3FB /* Sources */,
+				5F6E78BD20DC9E5A0032A3FB /* Frameworks */,
+				5F6E78BE20DC9E5A0032A3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6E78C220DC9E5A0032A3FB /* PBXTargetDependency */,
+			);
+			name = KTNavViewDemoUITests;
+			productName = KTNavViewDemoUITests;
+			productReference = 5F6E78C020DC9E5A0032A3FB /* KTNavViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6E789520DC9E580032A3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kirito_song;
+				TargetAttributes = {
+					5F6E789C20DC9E580032A3FB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5F6E78B420DC9E5A0032A3FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5F6E789C20DC9E580032A3FB;
+					};
+					5F6E78BF20DC9E5A0032A3FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5F6E789C20DC9E580032A3FB;
+					};
+				};
+			};
+			buildConfigurationList = 5F6E789820DC9E580032A3FB /* Build configuration list for PBXProject "KTNavViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6E789420DC9E580032A3FB;
+			productRefGroup = 5F6E789E20DC9E580032A3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6E789C20DC9E580032A3FB /* KTNavViewDemo */,
+				5F6E78B420DC9E5A0032A3FB /* KTNavViewDemoTests */,
+				5F6E78BF20DC9E5A0032A3FB /* KTNavViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6E789B20DC9E580032A3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6E78F720DC9F010032A3FB /* Info.plist in Resources */,
+				5F6E78AD20DC9E5A0032A3FB /* LaunchScreen.storyboard in Resources */,
+				5F6E78AA20DC9E5A0032A3FB /* Assets.xcassets in Resources */,
+				5F6E78A820DC9E580032A3FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6E78B320DC9E5A0032A3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6E78BE20DC9E5A0032A3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6E789920DC9E580032A3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6E78F020DC9F010032A3FB /* MASConstraintMaker.m in Sources */,
+				5F6E78A520DC9E580032A3FB /* ViewController.m in Sources */,
+				5F6E78EE20DC9F010032A3FB /* ViewController+MASAdditions.m in Sources */,
+				5F6E78F520DC9F010032A3FB /* MASViewConstraint.m in Sources */,
+				5F6E78B020DC9E5A0032A3FB /* main.m in Sources */,
+				5F6E78F120DC9F010032A3FB /* MASLayoutConstraint.m in Sources */,
+				5F6E78FD20DCA21D0032A3FB /* UIView+LayoutMethods.m in Sources */,
+				5F6E78F420DC9F010032A3FB /* MASConstraint.m in Sources */,
+				5F6E78F220DC9F010032A3FB /* NSArray+MASAdditions.m in Sources */,
+				5F6E78A220DC9E580032A3FB /* AppDelegate.m in Sources */,
+				5F6E78EF20DC9F010032A3FB /* MASCompositeConstraint.m in Sources */,
+				5F6E78FA20DC9F2D0032A3FB /* NavView.m in Sources */,
+				5F6E78F320DC9F010032A3FB /* View+MASAdditions.m in Sources */,
+				5F6E790020DCA3AE0032A3FB /* KTNavScrollTool.m in Sources */,
+				5F6E78ED20DC9F010032A3FB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				5F6E78F620DC9F010032A3FB /* MASViewAttribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6E78B120DC9E5A0032A3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6E78BA20DC9E5A0032A3FB /* KTNavViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6E78BC20DC9E5A0032A3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6E78C520DC9E5A0032A3FB /* KTNavViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F6E78B720DC9E5A0032A3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6E789C20DC9E580032A3FB /* KTNavViewDemo */;
+			targetProxy = 5F6E78B620DC9E5A0032A3FB /* PBXContainerItemProxy */;
+		};
+		5F6E78C220DC9E5A0032A3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6E789C20DC9E580032A3FB /* KTNavViewDemo */;
+			targetProxy = 5F6E78C120DC9E5A0032A3FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F6E78A620DC9E580032A3FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6E78A720DC9E580032A3FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6E78AB20DC9E5A0032A3FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6E78AC20DC9E5A0032A3FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6E78C720DC9E5A0032A3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F6E78C820DC9E5A0032A3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6E78CA20DC9E5A0032A3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTNavViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTNavViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F6E78CB20DC9E5A0032A3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTNavViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTNavViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F6E78CD20DC9E5A0032A3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTNavViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTNavViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTNavViewDemo.app/KTNavViewDemo";
+			};
+			name = Debug;
+		};
+		5F6E78CE20DC9E5A0032A3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTNavViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTNavViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTNavViewDemo.app/KTNavViewDemo";
+			};
+			name = Release;
+		};
+		5F6E78D020DC9E5A0032A3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTNavViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTNavViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTNavViewDemo;
+			};
+			name = Debug;
+		};
+		5F6E78D120DC9E5A0032A3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTNavViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTNavViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTNavViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6E789820DC9E580032A3FB /* Build configuration list for PBXProject "KTNavViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6E78C720DC9E5A0032A3FB /* Debug */,
+				5F6E78C820DC9E5A0032A3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6E78C920DC9E5A0032A3FB /* Build configuration list for PBXNativeTarget "KTNavViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6E78CA20DC9E5A0032A3FB /* Debug */,
+				5F6E78CB20DC9E5A0032A3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6E78CC20DC9E5A0032A3FB /* Build configuration list for PBXNativeTarget "KTNavViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6E78CD20DC9E5A0032A3FB /* Debug */,
+				5F6E78CE20DC9E5A0032A3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6E78CF20DC9E5A0032A3FB /* Build configuration list for PBXNativeTarget "KTNavViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6E78D020DC9E5A0032A3FB /* Debug */,
+				5F6E78D120DC9E5A0032A3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6E789520DC9E580032A3FB /* Project object */;
+}
